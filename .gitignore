@@ -1,0 +1,39 @@
+# Configurazioni personali degli IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Dipendenze e risultati della compilazione, in ogni attività
+node_modules/
+target/
+build/
+dist/
+out/
+.gradle/
+*.class
+*.tsbuildinfo
+coverage/
+.nyc_output/
+
+# Cache Python e ambienti locali
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Variabili locali: conservare solo esempi senza credenziali
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# File temporanei
+*.log
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
